@@ -19,3 +19,8 @@ body {
   line-height: 1.5;
   -webkit-font-smoothing: antialiased;
 }
+
+::selection {
+  background-color: var(--color-primary-200);
+  color: var(--color-neutral-100);
+}

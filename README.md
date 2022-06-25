@@ -1,4 +1,4 @@
-# Frontend Mentor - Product preview card component solution
+`# Frontend Mentor - Product preview card component solution
 
 This is a solution to the [Product preview card component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/product-preview-card-component-GO7UmttRfa). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
@@ -15,8 +15,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
 ## Overview
 
 ### The challenge
@@ -28,7 +26,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.png)
 
 ### Links
 
@@ -44,12 +42,21 @@ Users should be able to:
 - Flexbox
 - Mobile-first workflow
 - SASS with SCSS syntax
+- BEM Naming Convention
 
 ### What I learned
 
+This was the first personal project where I used SASS to author my CSS. I also tried to follow the 7-1 SASS architecture as close as possible.
+Other than practicing SASS, I practiced my CSS skills by building this project, specifically Flexbox.
+
 ### Continued development
 
+In the future I plan to take more advantage of the tools that SASS provides.
+
 ### Useful resources
+
+[BEM Naming Convention](http://getbem.com/naming/)
+[SASS 7-1 Architecture](https://www.learnhowtoprogram.com/user-interfaces/building-layouts-preprocessors/7-1-sass-architecture)
 
 ## Author
 

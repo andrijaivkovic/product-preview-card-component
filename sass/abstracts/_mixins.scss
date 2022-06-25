@@ -23,3 +23,17 @@
   justify-content: center;
   align-items: center;
 }
+
+@mixin mediaQuery($breakpoint) {
+  @if $breakpoint == desktop {
+    @media only screen and (min-width: $desktop-breakpoint) {
+      @content;
+    }
+
+    @if $breakpoint == mobile {
+      @media only screen and ($mobile-breakpoint) {
+        @content;
+      }
+    }
+  }
+}
