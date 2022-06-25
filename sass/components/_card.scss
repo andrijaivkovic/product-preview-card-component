@@ -1,0 +1,88 @@
+.card {
+  @include flex-column;
+  align-items: center;
+  background-color: var(--color-neutral-100);
+  border-radius: 10px;
+  overflow: hidden;
+  max-width: 37.5rem;
+
+  @media only screen and (min-width: 1440px) {
+    @include flex-row;
+    max-width: 70rem;
+  }
+
+  &__image {
+    @media only screen and (min-width: 1440px) {
+      flex: 0 0 50%;
+    }
+  }
+
+  &__image > img {
+    object-fit: cover;
+  }
+
+  &__content {
+    @include flex-column;
+    gap: 4rem;
+    padding: 2.5rem;
+
+    @media only screen and (min-width: 1440px) {
+      flex: 0 0 50%;
+      padding: 4rem;
+    }
+  }
+
+  &__header {
+    @include flex-column;
+    gap: 1.5rem;
+
+    @media only screen and (min-width: 1440px) {
+      gap: 2.5rem;
+    }
+  }
+
+  &__product-type {
+    letter-spacing: 4px;
+    text-transform: uppercase;
+  }
+
+  &__product-title {
+    font-size: 3.2rem;
+    font-family: "Fraunces", serif;
+    text-transform: capitalize;
+    color: var(--color-neutral-300);
+    line-height: 1;
+  }
+
+  &__product-description {
+    line-height: 1.75;
+  }
+
+  &__footer {
+    @include flex-column;
+    gap: 1.5rem;
+
+    @media only screen and (min-width: 1440px) {
+      gap: 2.5rem;
+    }
+  }
+
+  &__price-box {
+    @include flex-row;
+    align-items: center;
+    gap: 2.5rem;
+  }
+
+  &__price {
+    font-family: "Fraunces", serif;
+    font-size: 3.2rem;
+    color: var(--color-primary-200);
+
+    &--old {
+      font-size: 1.4rem;
+      text-decoration: line-through;
+    }
+  }
+
+  // add style specific to the button in this component
+}

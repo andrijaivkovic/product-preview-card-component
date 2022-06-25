@@ -1,0 +1,32 @@
+.button {
+  &:visited,
+  &:link {
+    @include flex-row-center;
+    gap: 1rem;
+    font-weight: 700;
+    padding: 1.5rem 0;
+    text-decoration: none;
+    color: var(--color-neutral-100);
+    border-radius: 10px;
+  }
+
+  &:hover {
+    // use CSS custom property for color
+    background-color: darken(#3c8067, 10%);
+  }
+
+  &__icon {
+  }
+
+  &__text {
+  }
+
+  &--green {
+    background-color: var(--color-primary-200);
+
+    &:hover {
+      // use CSS custom property for color
+      background-color: darken(#3c8067, 10%);
+    }
+  }
+}
