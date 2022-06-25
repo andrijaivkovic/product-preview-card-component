@@ -30,7 +30,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com) <br>
+- Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
 ## My process
@@ -55,7 +55,7 @@ In the future I plan to take more advantage of the tools that SASS provides.
 
 ### Useful resources
 
-[BEM Naming Convention](http://getbem.com/naming/)
+[BEM Naming Convention](http://getbem.com/naming/) <br>
 [SASS 7-1 Architecture](https://www.learnhowtoprogram.com/user-interfaces/building-layouts-preprocessors/7-1-sass-architecture)
 
 ## Author
